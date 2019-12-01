@@ -5,7 +5,7 @@ public class Main {
            String str;
            str = "百二十三";
            int i = Integer.parseInt(str);
-           System.out.println(str);
+           System.out.println(i);
 
 
 
