@@ -1,13 +1,14 @@
+
 public class Main {
     public static void main(String[] args) {
-       try {
-           String str;
-           str = null;
 
-           System.out.println(str.length());
-       }catch(NullPointerException e){
-           System.out.println("例外が発生中！");
-           System.out.println(e.getMessage());
-        }
+           String str;
+           str = "百二十三";
+           int i = Integer.parseInt(str);
+           System.out.println(str);
+
+
+
+
     }
 }
